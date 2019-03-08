@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single" android:id="@+id/group_before_login">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_home_black_48dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/category"
+            android:icon="@drawable/ic_playlist_add_black_48dp"
+            android:title="Items" />
+        <item
+            android:id="@+id/offline"
+            android:icon="@drawable/ic_signal_wifi_off_black_24dp"
+            android:title="Offline"
+            app:actionLayout="@layout/menu_number"/>
+        <item
+            android:id="@+id/feedback"
+            android:icon="@drawable/ic_feedback_black_24dp"
+            android:title="Feedback"
+            />
+        <item
+            android:id="@+id/nav_profile"
+            android:title="Login"
+            android:icon="@drawable/ic_perm_identity_black_24dp"
+            />
+    </group>
+
+    <group android:checkableBehavior="single" android:id="@+id/group_after_login" android:visible="false">
+        <item
+            android:id="@+id/home_login"
+            android:icon="@drawable/ic_home_black_48dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/category_login"
+            android:icon="@drawable/ic_playlist_add_black_48dp"
+            android:title="Items" />
+        <item
+            android:id="@+id/offline_login"
+            android:title="Offline"
+            android:icon="@drawable/ic_signal_wifi_off_black_24dp" />
+        <item
+            android:id="@+id/feedback_login"
+            android:icon="@drawable/ic_feedback_black_24dp"
+            android:title="Feedback"
+            />
+        <item
+            android:id="@+id/nav_profile_login"
+            android:title="Profile"
+            android:icon="@drawable/ic_account_circle_black_24dp"
+            />
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/ic_exit_to_app_black_24dp"
+            android:title="Logout"/>
+
+    </group>
+</menu>

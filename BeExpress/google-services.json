@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "618582435803",
+    "firebase_url": "https://beexapp.firebaseio.com",
+    "project_id": "beexapp",
+    "storage_bucket": "beexapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:618582435803:android:1b5372b6b468de3f",
+        "android_client_info": {
+          "package_name": "com.jackson_siro.beexpress"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "618582435803-lou8e5p2lpicu25fm2hm4t75f3mnemeh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5dSqECOHFynYhwIL4su5O0BMvcRubEsI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

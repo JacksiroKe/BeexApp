@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_wish"
+        android:icon="@drawable/ic_favorite_border_black_24dp"
+        android:title="@string/sub_title"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:iconTint="@color/white_color"/>
+
+    <item
+        android:id="@+id/user_comment"
+        app:actionLayout="@layout/badge_comment"
+        android:icon="@drawable/ic_comment_black_24dp"
+        android:iconTint="@color/white_color"
+        android:title=""
+        app:showAsAction="always" />
+
+    <item android:id="@+id/share"
+        android:icon="@drawable/ic_share_black_48dp"
+        android:title=""
+        app:showAsAction="always" />
+
+</menu>

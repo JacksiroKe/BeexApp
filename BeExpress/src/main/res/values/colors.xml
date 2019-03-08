@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF8C00</color>
+    <color name="colorPrimaryDark">#FF4500</color>
+    <color name="colorAccent">#FFA500</color>
+
+    <!--custom color-->
+    <color name="white_color">#ffffff</color>
+    <color name="white_bg">#efefef</color>
+    <color name="blue_color">#3a9bf5</color>
+    <color name="black_color">#000000</color>
+    <color name="line_title">#468b2828</color>
+    <color name="slider_items">#c69e9e</color>
+    <color name="bg">#2e2e2e</color>
+</resources>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jackson_siro.beexpress">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="com.google.android.c2dm.permission.REVEIVE"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_round"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.jackson_siro.beexpress.ui.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.SEARCH"/>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable">
+            </meta-data>
+        </activity>
+        <service android:name="com.jackson_siro.beexpress.ui.notification.FcmMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name="com.jackson_siro.beexpress.ui.notification.FcmInstanceIdService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+            </intent-filter>
+        </service>
+        <activity android:name="com.jackson_siro.beexpress.ui.DetailItemsFavorite"/>
+        <activity android:name="com.jackson_siro.beexpress.ui.SearchItems"/>
+        <activity android:name="com.jackson_siro.beexpress.ui.SubCategory" />
+        <activity android:name="com.jackson_siro.beexpress.ui.DetailItems" />
+        <activity android:name="com.jackson_siro.beexpress.ui.GuideItems"/>
+        <activity android:name="com.jackson_siro.beexpress.ui.Feedback"/>
+        <activity android:name="com.jackson_siro.beexpress.ui.AllItems"/>
+        <activity android:name="com.jackson_siro.beexpress.ui.OfflineItems"/>
+        <activity android:name="com.jackson_siro.beexpress.ui.UserLoginActivity"/>
+        <activity android:name="com.jackson_siro.beexpress.ui.UserProfileActivity"/>
+        <activity android:name="com.jackson_siro.beexpress.ui.UserRegisterActivity"/>
+        <activity android:name="com.jackson_siro.beexpress.ui.CommentUser"/>
+        <activity android:name="com.jackson_siro.beexpress.ui.CommentShow"/>
+    </application>
+
+</manifest>
