@@ -2,8 +2,8 @@ package com.jackson_siro.beexpress.retrofitconfig;
 
 public class BaseUrlConfig {
     //http://192.168.0.103/com.jackson_siro.beexpress-items/
-    public static final String BASE_URL = "http://192.168.43.233/beexpress/"; // change this url with your base url
-    //public static final String BASE_URL = "http://192.168.5.110/beexpress/"; // change this url with your base url
+    //public static final String BASE_URL = "http://192.168.43.233/beexpress/"; // change this url with your base url
+    public static final String BASE_URL = "http://192.168.5.110/beexpress/"; // change this url with your base url
     public static final String store_token = "includes/insert_token_from_app.php"; // change this url with your base url http://192.168.0.101/com.jackson_siro.beexpress-items
     public static final int Request_Load_More = 10;
     public static final String SQL_DB_PATH = "data/data/com.jackson_siro.beexpress.android/items/databases"; //don't change this
